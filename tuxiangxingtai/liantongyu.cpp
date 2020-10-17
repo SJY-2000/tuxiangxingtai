@@ -18,7 +18,7 @@ int main()
 		rectangle(result, rect, CV_RGB(255, 255, 255), 1, 8, 0);
 	}
 	cout <<"硬币个数："<< n - 1 << endl;
-	imshow("连通域"， result);
+	imshow("连通域", result);
 	waitKey(0);
 	return 0;
 }
